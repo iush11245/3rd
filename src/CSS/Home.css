@@ -1,0 +1,86 @@
+/* HomePage.css */
+
+/* Styling for the main container */
+.home-page-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the heading */
+.home-page-container h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* List of movies */
+.home-page-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Each movie item */
+.home-page-container li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-page-container li:hover {
+    transform: scale(1.02);
+}
+
+/* Movie title and year styling */
+.home-page-container li strong {
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+.home-page-container li span {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Pagination buttons */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-container button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.pagination-container button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.pagination-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Page number styling */
+.page-number {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
